@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'de.local.garlicchat'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'de.local.garlicchat'
+        minSdk 26
+        targetSdk 34
+        versionCode 2
+        versionName '1.1.0'
+    }
+}
